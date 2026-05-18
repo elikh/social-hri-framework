@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="100%" height="100%" fill="none">
+  <style>
+    .icon-path {
+      stroke: currentColor;
+      stroke-width: 1.5; /* עובי קו עדין ומקצועי */
+      stroke-linecap: round; /* קצוות קו מעוגלים קלות למראה מודרני */
+      stroke-linejoin: round; /* פינות מחוברות בצורה נקייה */
+    }
+  </style>
+
+  <path class="icon-path" d="M4 6V18L12 12L4 6Z M20 6V18L12 12L20 6Z"/>
+</svg>
