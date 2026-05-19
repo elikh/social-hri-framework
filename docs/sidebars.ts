@@ -50,8 +50,11 @@ const sidebars = {
             'design-patterns/human-context/human-context-overview',
             'design-patterns/human-context/synchronous-multi-extractor',
             'design-patterns/human-context/elastic-attention-governor',
-            // 'design-patterns/human-context/tiered-semantic-cache-proxy',
-            // 'design-patterns/human-context/adaptive-signature-learner',
+            'design-patterns/human-context/basic-input-sublayer-example',
+            'design-patterns/human-context/tiered-semantic-cache-proxy',
+            'design-patterns/human-context/adaptive-signature-learner',
+            'design-patterns/human-context/human-context-interpreter-sublayer-example',
+            'design-patterns/human-context/human-context-layer-example',
             // 'design-patterns/human-context/human-context-layer-example',
           ],
         }
