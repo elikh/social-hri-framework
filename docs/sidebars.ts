@@ -55,11 +55,25 @@ const sidebars = {
             'design-patterns/human-context/adaptive-signature-learner',
             'design-patterns/human-context/human-context-interpreter-sublayer-example',
             'design-patterns/human-context/human-context-layer-example',
-            // 'design-patterns/human-context/human-context-layer-example',
           ],
-        }
+        },
 
-        // כאן נוסיף בהמשך את שאר קבצי התבניות שנכתוב
+        'design-patterns/scene-context',
+        'design-patterns/robot-context',
+
+        {
+          type: 'category',
+          label: 'Context Management',
+          items: [
+            'design-patterns/context-management/context-management-overview',
+            'design-patterns/context-management/context-novelty-extractor',
+            'design-patterns/context-management/hri-db-handler-pattern',
+            'design-patterns/context-management/hri-db-reasoning-handlers',
+            'design-patterns/context-management/task-prerequisite-resolver',
+            'design-patterns/context-management/social-convention-validator',            
+          ],
+        },
+
       ],
     },
   ],
