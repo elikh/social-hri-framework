@@ -70,7 +70,8 @@ const sidebars = {
             'design-patterns/context-management/hri-db-handler-pattern',
             'design-patterns/context-management/hri-db-reasoning-handlers',
             'design-patterns/context-management/task-prerequisite-resolver',
-            'design-patterns/context-management/social-convention-validator',            
+            'design-patterns/context-management/social-convention-validator',
+            'design-patterns/context-management/context-management-layer-example',
           ],
         },
 
