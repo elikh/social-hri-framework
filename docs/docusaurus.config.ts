@@ -46,7 +46,19 @@ const config: Config = {
 
   themeConfig: {
     // Replace with your project's social card
-    image: 'img/docusaurus-social-card.jpg',
+    image: 'img/social-hml-hri-icon.png',
+    metadata: [
+      {
+        name: 'keywords',
+        content:
+          'human-robot interaction, HRI, social robotics, HML, SOCIAL framework, HRI design patterns, robot architecture, embodied AI, physical AI, foundation models in robotics, LLM robotics, VLM robotics, robot social reasoning, human robot interaction architecture, inspectable AI, explainable robotics, context-aware robotics, adaptive autonomy, social robot design patterns',
+      },
+      {
+        name: 'description',
+        content:
+          'S.O.C.I.A.L. HML is a pattern language for inspectable, socially governed, modern-AI-compatible Human-Robot Interaction architectures.',
+      },
+    ],    
     colorMode: {
       respectPrefersColorScheme: true,
     },
@@ -54,7 +66,7 @@ const config: Config = {
       title: 'S.O.C.I.A.L. Framework', // מיתוג שם הפרויקט בבר העליון
       logo: {
         alt: 'S.O.C.I.A.L. Framework Logo',
-        src: 'img/logo.svg', // ודא שקיים קובץ לוגו בתיקיית static/img
+        src: 'img/social-hml-hri-icon.png', // ודא שקיים קובץ לוגו בתיקיית static/img
       },
       items: [
         {
@@ -64,44 +76,23 @@ const config: Config = {
           label: 'Docs', // שינוי מ-Tutorial ל-Docs
         },
         {
-          href: 'https://github.com/elikh/social-hri-framework', // קישור ל-Repo האמיתי שלך
-          label: 'GitHub',
-          position: 'right',
+          to: '/docs/about',
+          label: 'About',
+          position: 'left',
         },
       ],
     },
     footer: {
       style: 'dark',
-      links: [
-        {
-          title: 'Docs',
-          items: [
-            {
-              label: 'Introduction',
-              to: '/docs/intro',
-            },
-          ],
-        },
-        {
-          title: 'Community',
-          items: [
-            {
-              label: 'GitHub Issues',
-              href: 'https://github.com/elikh/social-hri-framework/issues',
-            },
-          ],
-        },
-        {
-          title: 'More',
-          items: [
-            {
-              label: 'GitHub Repository',
-              href: 'https://github.com/elikh/social-hri-framework',
-            },
-          ],
-        },
-      ],
-      copyright: `Copyright © ${new Date().getFullYear()} Eli. Built with Docusaurus.`,
+      links: [],
+      copyright: `
+        <div style="display:flex; flex-wrap:wrap; justify-content:center; gap:1.25rem; align-items:center;">
+          <span>© ${new Date().getFullYear()} S.O.C.I.A.L. HML Framework</span>
+          <a href="/social-hri-framework/docs/hml/hml-overview">HML Overview</a>
+          <a href="/social-hri-framework/docs/design-patterns/design-patterns-overview">Design Patterns</a>
+          <a href="/social-hri-framework/docs/modern-ai/modern-ai-integration-overview">Modern AI Integration</a>
+        </div>
+      `,
     },
     prism: {
       theme: prismThemes.github,

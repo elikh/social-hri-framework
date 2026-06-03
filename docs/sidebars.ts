@@ -4,6 +4,7 @@ const sidebars = {
     {
       type: 'category',
       label: 'S.O.C.I.A.L. Principles',
+      collapsed: true,
       link: {
         type: 'generated-index',
         title: 'S.O.C.I.A.L. Core Principles',
@@ -22,7 +23,7 @@ const sidebars = {
     {
       type: 'category',
       label: 'HML — HRI Modeling Language',
-      collapsed: false,
+      collapsed: true,
       items: [
         'hml/hml-overview',
         'hml/hml-diagram-conventions',
@@ -38,6 +39,7 @@ const sidebars = {
     {
       type: 'category',
       label: 'HRI Design Patterns',
+      collapsed: true,
       items: [
         'design-patterns/design-patterns-overview',
         'design-patterns/how-to-read-a-pattern-page',
@@ -75,9 +77,36 @@ const sidebars = {
           ],
         },
 
+        {
+          type: 'category',
+          label: 'Social Planning and Behavioral Synthesis',
+          items: [
+            'design-patterns/social-planning/social-planning-overview',
+            'design-patterns/social-planning/social-opportunity-tpr',
+            'design-patterns/social-planning/social-action-stylist',
+            'design-patterns/social-planning/social-planning-layer-example',
+          ], 
+        },
+        'design-patterns/actuation-layer',
       ],
     },
+
+    {
+      type: 'category',
+      collapsed: true,
+      label: 'Modern AI and SOCIAL HRI',
+      items: [
+        'modern-ai/modern-ai-integration-overview',
+        'modern-ai/semantic-responsibility-decoupling',
+        'modern-ai/foundation-models-as-hml-experts',
+        'modern-ai/intermediate-artifacts-and-semantic-commitments',
+        'modern-ai/end-to-end-rl-and-social-tradeoffs',
+        'modern-ai/practical-integration-patterns',
+      ],
+    }
+
   ],
 };
+
 
 export default sidebars;
