@@ -258,6 +258,24 @@ export default function Home(): ReactNode {
       <main>
         <WhySection />
         <EntryCards />
+        <section className={styles.videoSection}>
+          <div className="container">
+            <h2 className={styles.videoTitle}>Watch the Overview</h2>
+            <p className={styles.videoSubtitle}>
+              A short introduction to the S.O.C.I.A.L. HML Framework and its role in inspectable,
+              socially governed, modern-AI-compatible Human-Robot Interaction architectures.
+            </p>
+
+            <div className={styles.videoWrapper}>
+              <iframe
+                src="https://player.vimeo.com/video/1197983185"
+                title="S.O.C.I.A.L. HML Framework overview video"
+                allow="autoplay; fullscreen; picture-in-picture"
+                allowFullScreen
+              />
+            </div>
+          </div>
+        </section>        
         <ArchitectureSection />
         <ModernAiSection />
         <AboutSection />

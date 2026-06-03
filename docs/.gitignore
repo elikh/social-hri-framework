@@ -18,3 +18,15 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+
+# Local utility scripts
+merge.py
+
+# Generated NotebookLM / merged documentation artifacts
+*_merged.md
+notebooklm-source-*.md
+social_hml_notebooklm_source.md
+
+# Accidental root-level package lock
+/package-lock.json
