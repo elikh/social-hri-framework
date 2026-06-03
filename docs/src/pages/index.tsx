@@ -268,7 +268,7 @@ export default function Home(): ReactNode {
 
             <div className={styles.videoWrapper}>
               <iframe
-                src="https://player.vimeo.com/video/1197983185"
+                src="https://player.vimeo.com/video/1198015291"
                 title="S.O.C.I.A.L. HML Framework overview video"
                 allow="autoplay; fullscreen; picture-in-picture"
                 allowFullScreen
