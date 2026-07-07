@@ -29,33 +29,6 @@ Core visual principles:
 
 ---
 
-# Static SVG Assets
-
-The documentation references shared SVG assets using the public Docusaurus path:
-
-~~~text
-/social-hri-framework/img/hml/<icon-name>.svg
-~~~
-
-Example:
-
-~~~html
-<img src="/social-hri-framework/img/hml/policy-check.svg" width="48" />
-~~~
-
-The source files should be placed under:
-
-~~~text
-static/img/hml/
-~~~
-
-In your current project layout this corresponds to:
-
-~~~text
-docs/static/img/hml/
-~~~
-
----
 
 # Core Visual Grammar
 
